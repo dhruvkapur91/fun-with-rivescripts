@@ -2,5 +2,10 @@
 
 ! var num = 37555
 
++ #
+* <star1> > <bot num> => well... try picking a lower number
+* <star1> < <bot num> => oo... try picking a larger number
+* <star1> == <bot num> => woah! how! you got the right one!
+
 + * 
 - Guess a number between 0 and 99999
