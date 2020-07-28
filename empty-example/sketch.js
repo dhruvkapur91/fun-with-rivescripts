@@ -13,6 +13,7 @@ function setup() {
   function brainReady() {
     console.log("brain ready");
     bot.sortReplies();
+    bot.reply("local-user", "set " + number);
     button.mousePressed(chat);
   }
 
