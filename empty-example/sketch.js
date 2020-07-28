@@ -1,7 +1,7 @@
-let number = 37555;
-
 function setup() {
   noCanvas();
+  
+  let number = floor(random(10000));
 
   let bot = new RiveScript();
   bot.loadFile("brain.rive").then(brainReady).catch(brainError);
