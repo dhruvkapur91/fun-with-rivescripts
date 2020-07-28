@@ -8,7 +8,8 @@ function setup() {
 
   let button = select("#submit");
   let userInput = select("#user_input");
-  let output = select("#output")
+  let output = select("#output");
+  let guesses = document.getElementById("guesses");
 
   function brainReady() {
     console.log("brain ready");
@@ -26,6 +27,10 @@ function setup() {
     bot.reply("local-user", input).then(function(reply){
       console.log("Finished reply");
       output.html(reply);
+      let guess = document.createElement("span");
+      guess.className += "guess"
+      guess.innerHTML = input + " "
+      guesses.appendChild(guess)    
     })
     console.log("Finished chat");
   }

@@ -1,0 +1,10 @@
+.guess {
+    margin : 10px;
+    background-color: rgba(0,0,255,0.3);
+    border-radius: 20px;
+
+}
+
+#guesses {
+    line-height: 35px;
+}
