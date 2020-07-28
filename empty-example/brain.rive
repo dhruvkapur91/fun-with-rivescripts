@@ -1,12 +1,13 @@
 // Chatbot's brain
 
 + set #
-- <set num = <star1>>
+- <set num=<star>>
 
 + #
 * <star1> > <get num> => well... try picking a lower number
 * <star1> < <get num> => oo... try picking a larger number
 * <star1> == <get num> => woah! how! you got the right one!
+- Didn't match anything
 
 + * 
 - Guess a number between 0 and 99999
